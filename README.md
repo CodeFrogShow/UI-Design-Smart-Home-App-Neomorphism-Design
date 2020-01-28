@@ -1,4 +1,4 @@
-# UI-Design-Smar-Home-App-Neomorphism-Design
+# UI-Design-Smart-Home-App-Neomorphism-Design
 
 This is source code of Youtube Channel Video Tutorial.
 
