@@ -1,0 +1,293 @@
+body
+{
+    background-color: #e3edf7;
+    font-family: Poppins;
+}
+
+#sha_app
+{
+    padding: 20px 7px;
+}
+
+/** Start Section Header Bar Style **/
+#sha_header_bar
+{
+    color: rgba(49,69,106,0.6);
+}
+
+#sha_header_bar span
+{
+    display: block;
+}
+
+#sha_header_bar span.sub-heading
+{
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+#sha_header_bar span.heading
+{
+    color: rgba(49,69,106,1);
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: -5px;
+}
+/** End Section Header Bar Style **/
+
+/** Start Section Button List Style **/
+#sha_button_list 
+{
+    margin-top: 10px;
+}
+
+#sha_button_list ul
+{
+    padding: 0;
+}
+
+#sha_button_list ul li
+{
+    list-style: none;
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 10px 0;
+ }
+
+ #sha_button_list ul li:first-child
+ {
+    margin-left: -5px;
+ }
+
+#sha_button_list ul li span
+{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 15px;
+}
+
+#sha_button_list ul li.off span
+{
+    color: rgba(49,69,106,0.35);
+
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+
+    border: 1px solid rgba(0,0,0,0.0);
+}
+
+#sha_button_list ul li.on span
+{
+    color: rgba(49,69,106,1);
+
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0 rgba(255,255,255,1),
+                0.5px 0.5px 0 rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.01);
+}
+/** End Section Button List Style **/
+
+/** Start Section Body 1 Style **/
+#sha_temp_body
+{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#sha_temp_body .sha_temp
+{
+    position: relative;
+    display: inline-block;
+    width: 230px;
+    height: 230px;
+    border-radius: 100%;
+    text-align: center;
+    box-shadow: 30px 30px 30px -10px rgba(0,0,0,0.1),
+                -30px -30px 30px -10px rgba(255,255,255,0.4),
+                -0.5px -0.5px 0 rgba(255,255,255,1),
+                0.5px 0.5px 0 rgba(0,0,0,0.02);
+}
+
+#sha_temp_body .sha_temp > span
+{
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    transform: translateY(-60%);
+}
+
+#sha_temp_body .sha_temp > span > span.temp-data
+{
+    font-size: 60px;
+    font-weight: 600;
+    display: block;
+    color: rgba(49,69,106,1);
+}
+
+#sha_temp_body .sha_temp > span > span.temp-data sup
+{
+    position: absolute;
+    font-size: 15px;
+    font-weight: 500;
+    top: 24%;
+}
+
+#sha_temp_body .sha_temp > span > span.temp-info
+{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(49,69,106,0.6);
+    white-space: nowrap;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#sha_temp_body .sha_temp:before
+{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 88%;
+    height: 88%;
+    border-radius: inherit;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7);
+}
+
+#sha_temp_body .sha_temp:after
+{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 78%;
+    height: 78%;
+    border-radius: inherit;
+    left: 50%;
+    top: 50%;
+    background-color: rgba(0,0,0,0.025);
+    border: 1px solid rgba(0,0,0,0.01);
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7);
+}
+/** End Section Body 1 Style **/
+
+/** Start Section Body 2 Style **/
+#sha_temp_meta
+{
+    margin-top: 30px;
+}
+
+#sha_temp_meta .sha_tile > div
+{
+    position: relative;
+    border: 1px solid rgba(255,255,255,0.7);
+    background-color: rgba(0,0,0,0.01);
+    border-radius: 15px;  
+    padding: 22px;
+    box-shadow: 15px 5px 20px -10px rgba(0,0,0,0.15),
+                -15px -5px 20px -10px rgba(255,255,255,0.8);
+}
+
+#sha_temp_meta .sha_tile > div span.tile_icon
+{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,0.02);
+    background-color: rgba(0,0,0,0.01);
+    color: rgba(49,69,106,0.6);
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+}
+
+#sha_temp_meta .sha_tile > div span.tile_info
+{
+    position: absolute;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(49,69,106,0.8);
+    padding-left: 14px;
+    margin-top: 5px;
+}
+
+#sha_temp_meta .sha_tile > div span.tile_info span
+{
+    display: block;
+    font-weight: 400;
+    color: rgba(49,69,106,0.5);
+}
+
+#sha_temp_meta .sha_tile:not(last-child)
+{
+    margin-bottom: 12px;
+}
+/** End Section Body 2 Style **/
+
+/** Start Section Footer Style **/
+#sha_footer
+{
+    margin-top: 15px;
+    color: rgba(49,69,106,0.5);
+}
+
+#sha_footer .footer_title
+{
+    font-size: 15px;
+    display: block;
+}
+
+#sha_footer .footer_data
+{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(49,69,106,1);
+}
+
+#sha_footer .footer_data span
+{
+    color: rgba(49,69,106,0.5);
+}
+
+#sha_footer .sha_switch
+{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    border-radius: 25px;
+    border: 1px solid rgba(255,255,255,0.7);
+    background-color: rgba(0,255,0,0.6);
+    box-shadow: inset 4px 4px 8px rgba(0,0,0,0.15);
+    margin-top: 2px;
+}
+
+#sha_footer .sha_switch:before
+{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 26px;
+    background-color: #e3edf7;
+    border-radius: 12px;
+    right: 1px;
+    top: 1px;
+    box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.15);
+}
+/** End Section Footer Style **/
